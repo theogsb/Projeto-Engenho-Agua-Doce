@@ -1,0 +1,11 @@
+release/main.o
+release/mainwindow.o
+release/tela_adicionar.o
+release/tela_cadastro.o
+release/tela_principal.o
+release/tela_retirar.o
+release/moc_mainwindow.o
+release/moc_tela_adicionar.o
+release/moc_tela_cadastro.o
+release/moc_tela_principal.o
+release/moc_tela_retirar.o

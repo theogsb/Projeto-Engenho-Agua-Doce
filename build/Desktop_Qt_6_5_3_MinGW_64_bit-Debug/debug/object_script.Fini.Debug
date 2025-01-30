@@ -1,0 +1,11 @@
+debug/main.o
+debug/mainwindow.o
+debug/tela_adicionar.o
+debug/tela_cadastro.o
+debug/tela_principal.o
+debug/tela_retirar.o
+debug/moc_mainwindow.o
+debug/moc_tela_adicionar.o
+debug/moc_tela_cadastro.o
+debug/moc_tela_principal.o
+debug/moc_tela_retirar.o

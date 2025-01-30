@@ -1,0 +1,7 @@
+Projeto Estoque Cachaçaria Engenho Água Doce
+
+O projeto é uma simples aplicação CRUD no QT Creator junto com o SQlite.
+
+------- ATENÇÃO --------
+
+NO ARQUIVO "mainwindow.cpp", onde é comentado devidamente, deve-se colar o caminho do arquivo do banco de dados caso a conexão com o banco de dados esteja falhando!
