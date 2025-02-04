@@ -11,75 +11,65 @@
     <title>Estoque Cachaçaria Engenho Água Doce</title>
     
     <style>
-       /* Reset básico */
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-family: Arial, sans-serif;
     }
-
-    /* Corpo da página */
+    
     body {
-        background-color: #f4f4f4;
-        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: #f5f5f5;
+        padding: 20px;
         text-align: center;
-        padding: 20px;
     }
-
-    /* Container principal */
-    .container {
-        max-width: 800px;
-        margin: 0 auto;
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    }
-
-    /* Estilizando os títulos */
-    h1, h2, h3 {
+    
+    h1 {
         color: #2c3e50;
+        font-size: 2rem;
         margin-bottom: 15px;
     }
-
-    /* Estilizando os parágrafos */
+    
+    h2 {
+        color: #34495e;
+        font-size: 1.8rem;
+        margin-top: 20px;
+    }
+    
+    h3 {
+        color: #2c3e50;
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+    
     p {
-        font-size: 18px;
-        line-height: 1.6;
+        color: #555;
+        font-size: 1.2rem;
+        max-width: 800px;
+        line-height: 1.5;
         margin-bottom: 15px;
     }
-
-    /* Estilizando imagens */
-    img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 5px;
-        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    }
-
-    /* Estilizando vídeos */
+    
     video {
-        max-width: 100%;
-        border-radius: 5px;
+        width: 80%;
+        max-width: 640px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        margin-top: 15px;
     }
-
-    /* Melhorando botões, caso tenha */
-    button {
-        background-color: #3498db;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        font-size: 16px;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: 0.3s;
+    
+    img {
+        width: 80%;
+        max-width: 640px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        margin-top: 15px;
     }
-
-    button:hover {
-        background-color: #2980b9;
-    }
-
 
     </style>
     
